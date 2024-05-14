@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom left, #4b1964, #030948);
+}
+
+textarea{
+    resize: none;
+    height: 60vh;
+    width: 80%;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 1rem;
+    font-family: system-ui;
+    font-size: 1.2rem;
+    background: #3d3f83;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 4rem;
+    padding: 30px;
+    font-family: system-ui;
+    color: white;
+    font-weight: 400;
+}
+
+.row{
+    width: calc(80% + 60px);
+    background-color: rgba(0, 0, 0, 0);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    text-align: center;
+    width: 30%;
+    height: 70%;
+    margin-left: 3%;
+    border-radius: 1000px;
+    border: none;
+    background-color: #f94269;
+    font-family: system-ui;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    width: 67%;
+    height: 70%;
+    border-radius: 1000px;
+    background-color: #3d3f83;
+    border: none;
+    color: white;
+    font-family: system-ui;
+    font-size: 1.2rem;
+    text-align: center;
+    appearance: none;
+}
+
+textarea::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+span{
+    color: #f94269;
+}
+
+button img{
+    height: 40px;
+    left: 0;
+}
